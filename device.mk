@@ -741,3 +741,7 @@ include hardware/google/pixel/thermal/device.mk
 
 # power HAL
 -include hardware/google/pixel/power-libperfmgr/hidl/device.mk
+
+# EUICC feature
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.euicc.xml
