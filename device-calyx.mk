@@ -16,5 +16,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/google/wahoo/the_experiences.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/the_experiences.xml
 
+# RCS
+PRODUCT_PACKAGES += \
+    RcsService \
+    PresencePolling
+
 # Setting vendor SPL
 VENDOR_SECURITY_PATCH := 2020-10-05
