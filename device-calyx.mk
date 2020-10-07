@@ -1,5 +1,8 @@
 DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-calyx
 
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/google/interfaces
+
 # EUICC feature
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.euicc.xml \
