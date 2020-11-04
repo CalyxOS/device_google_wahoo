@@ -722,3 +722,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     device/google/wahoo/permissions/privapp-permissions-aosp-extended.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-aosp-extended.xml
+
+# Setting vendor SPL
+VENDOR_SECURITY_PATCH := 2020-09-05
