@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "49e8b471_aad9cdc0",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-12-02T21:43:11Z",
+      "side": 1,
+      "message": "system_ext now",
+      "revId": "083031d777f256bcfc33ddac6a86951a31ce9856",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
