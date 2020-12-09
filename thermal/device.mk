@@ -7,4 +7,4 @@ PRODUCT_PACKAGES += \
     thermal_logd2
 endif
 
-BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/thermal
+BOARD_SEPOLICY_DIRS += device/google/wahoo/sepolicy/thermal
