@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ecb49d6f_49698bc0",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2021-01-19T16:28:33Z",
+      "side": 1,
+      "message": "TODO: replace this with device/google/wahoo-kernel/msm8998/kernel-headers, matching the rest of the devices",
+      "range": {
+        "startLine": 77,
+        "startChar": 33,
+        "endLine": 77,
+        "endChar": 69
+      },
+      "revId": "539ca01e2190126b17cbaa01f7d6d786a558b105",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0",
+      "unresolved": true
+    }
+  ]
+}
