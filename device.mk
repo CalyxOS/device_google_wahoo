@@ -72,6 +72,11 @@ TARGET_SYSTEM_PROP := $(TARGET_SYSTEM_PROP) $(LOCAL_PATH)/system.prop
 
 $(call inherit-product, device/google/wahoo/utils.mk)
 
+ifeq ($(INLINE_KERNEL_BUILDING),false)
+TARGET_PREBUILT_KERNEL := device/google/wahoo-kernel/Image.lz4-dtb
+PRODUCT_VENDOR_KERNEL_HEADERS := hardware/qcom/msm8998/kernel-headers
+endif
+
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SHIPPING_API_LEVEL := 26
 
